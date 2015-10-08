@@ -1,6 +1,7 @@
 package bug419921;
 
 public final class AccessPreferencesBooleanTest extends AccessPreferencesTest {
+
 	private static final String BOOLEAN_KEY = "bKey";
 	private static final boolean DEFAULT_BOOLEAN = false;
 

@@ -1,5 +1,3 @@
 package bug419921;
 
-public class Editor {
-
-}
+public class Editor {}

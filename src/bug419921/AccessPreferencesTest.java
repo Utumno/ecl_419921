@@ -1,10 +1,12 @@
 package bug419921;
+
 public class AccessPreferencesTest extends AndroidTestCase {
+
 	Editor e;
 	protected static final String ctx = "ctx";
 	private static final String SOME_KEY = "some";
 
-	//...
+	// ...
 	public void testPutSomething() {
 		AccessPreferences.put(ctx, SOME_KEY, null);
 		try {
@@ -14,5 +16,4 @@ public class AccessPreferencesTest extends AndroidTestCase {
 			System.out.println(e);
 		}
 	}
-
 }
